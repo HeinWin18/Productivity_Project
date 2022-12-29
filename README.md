@@ -10,7 +10,7 @@ Targets:
 --> Finish the demo version of a timetable
 --> Git Hub repository setted up with the prototype
 --> Implement front end & back end (connecting them)
---> Getting feedback from 3 different users
+--> Getting feedback from 3 different users 
 
 Research:
 --> How to take it online? So people can see?
