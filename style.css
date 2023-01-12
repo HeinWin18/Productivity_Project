@@ -19,6 +19,23 @@ html {
     align-items: center;
 }
 
+.Event {
+    width: 0;
+    height: 0;
+    background-color: cornflowerblue;
+    border: 1px solid gray;
+    /* transition-duration: 1000ms;
+    transition-property: width, height;
+    transition-timing-function: ease-out; */
+
+    transition: 1000ms width ease-out, 1000ms height ease-out;
+}
+
+.Event:hover {
+    width: 20%;
+    height: 80vh;
+}
+
 .calendar {
     width: 45rem;
     height: 52rem;
