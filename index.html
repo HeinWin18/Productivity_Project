@@ -29,7 +29,7 @@
                 <div>Fri</div>
                 <div>Sat</div>
             </div>
-            <div class="days">
+            <div id="days" class="days">
                 <div class="prev-date">27</div>
                 <div class="prev-date">28</div>
                 <div class="prev-date">29</div>
@@ -74,11 +74,18 @@
                 <div class="next-date">7</div>
             </div>
         </div>
-        <div class="Event">
-            <div>Events</div>
+        
+        <div class="modalcontainer" id="modalcontainer">
+            <div class="Modal"> 
+                <h2>EnterEvent</h2>
+
+                <input id="eventTitleInput" placeholder="Event Title"/>
+
+                <button id="saveButton">Save</button>
+                <button id="cancelButton">Cancel</button>
+            </div>
         </div>
     </div>
-
 
     <script src="script.js"></script>
 </body>

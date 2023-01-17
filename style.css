@@ -19,14 +19,45 @@ html {
     align-items: center;
 }
 
-.Event {
+.modalcontainer{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalcontainer.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.Modal{
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ;
+    color: #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/*.Event {
     width: 0;
     height: 0;
     background-color: cornflowerblue;
     border: 1px solid gray;
     /* transition-duration: 1000ms;
     transition-property: width, height;
-    transition-timing-function: ease-out; */
+    transition-timing-function: ease-out; 
 
     transition: 1000ms width ease-out, 1000ms height ease-out;
 }
@@ -34,7 +65,7 @@ html {
 .Event:hover {
     width: 20%;
     height: 80vh;
-}
+} */
 
 .calendar {
     width: 45rem;
